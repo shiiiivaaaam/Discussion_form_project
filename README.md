@@ -28,4 +28,6 @@ server folder has
 requests - that takes all the get and post requests for client and process them which includes edit , delete , insert , create , read etc .
 PHPMailer - to sending emails.
 
-index.php - this is the default home page of the website .
+index.php - this is the default home page of the website 
+
+discuss.sql is mysql file that contains the database that stores users,questions , answers . as tables.
