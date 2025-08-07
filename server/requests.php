@@ -176,13 +176,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = '***REMOVED***'; // your Gmail
-        $mail->Password = ***REMOVED***;         // your App Password
+        $mail->Username = ''; // your Gmail
+        $mail->Password = '';         // your App Password
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
-        $mail->setFrom('***REMOVED***', $name);
-        $mail->addAddress('***REMOVED***');
+        $mail->setFrom('', $name); //fill email here.
+        $mail->addAddress(''); // fill email here.
 
         $mail->isHTML(true);
         $mail->Subject = 'Discuss Message Contact Us';
@@ -241,4 +241,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     
    
+
 ?>
